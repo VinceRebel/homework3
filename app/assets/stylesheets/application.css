@@ -28,3 +28,21 @@
     font-size: 13 px;
     line-height: 18px;
  }
+
+body {
+    font-family: "helvetica";
+    font-size:13px;
+}
+
+ #location_table{
+     border: 1px solid #1C6EA4;
+     background-color: #eeeeee;
+    width: 100%;
+     text-align: left;
+     border-collapse: collapse;
+ }
+
+
+
+
+ 

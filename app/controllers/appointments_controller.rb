@@ -69,6 +69,6 @@ class AppointmentsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def appointment_params
-      params.require(:appointment).permit(:visit, :physician.name, :patient.name)
+      params.require(:appointment).permit(:visit, :physician_id, :patient_id)
     end
 end
